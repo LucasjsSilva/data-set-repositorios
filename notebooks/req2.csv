@@ -1,0 +1,19 @@
+Nome do Atributo,Tipo do Valor,Tipo do Formato,Descrição do Atributo
+name,string,Categórico,Nome do repositório
+owner,string,Categórico,Login do usuário/organização dono
+stars,int64,Numérico,Número de estrelas
+forks,int64,Numérico,Número de forks
+language,string,Categórico,Linguagem principal do projeto
+created_at,datetime,Categórico,Data de criação do repositório (UTC)
+updated_at,datetime,Categórico,Data da última atualização
+size_kb,int64,Numérico,Tamanho aproximado do repositório em KB
+watchers_count,int64,Numérico,Usuários acompanhando o repositório
+open_issues,int64,Numérico,Issues abertas no momento
+owner_type,string,Categórico,Tipo do dono (User ou Organization)
+owner_public_repos,int64,Numérico,Quantidade de repositórios públicos do dono
+owner_location,string,Categórico,Localização geográfica declarada no perfil (opcional)
+subscribers_count,int64,Numérico,Inscritos no repositório
+last_year_commits,int64,Numérico,Quantidade de commits realizados nos últimos 12 meses
+contributors,int64,Numérico,Número de contribuidores únicos
+closed_issues,int64,Numérico,Issues fechadas nos últimos 6 meses
+pull_requests,int64,Numérico,Quantidade total de pull requests (abertos + fechados)
